@@ -25,30 +25,35 @@ set lazyredraw           " Redraw nur wenn nötig
 set synmaxcol=240        " Syntax highlighting nur bis Spalte 240
 syntax sync minlines=256 " better accuracy
 
+" Basis-Verzeichnis
+let s:vimdir = expand('~/.config/vim')
+
 " Backup-Konfiguration {{{
 
-if !isdirectory(expand('~/.vim/backup'))
-  call mkdir(expand('~/.vim/backup'), 'p')
+" Backup-Verzeichnis
+if !isdirectory(s:vimdir . '/backup')
+  call mkdir(s:vimdir . '/backup', 'p')
 endif
 
-set backup                  " Backups einschalten
-set writebackup             " Vor dem Überschreiben sichern
-set backupcopy=yes          " Direktes Kopieren
-set backupext=.bak          " .bak am Ende
-set backupdir=~/.vim/backup " Doppelslash -> KEINE %home%-Kodierung
+set backup
+set writebackup
+set backupcopy=yes
+set backupext=.bak
+execute 'set backupdir=' . s:vimdir . '/backup//'
 
 " }}}
 
+" Kein Swapfile
 set noswapfile
-" set directory=~/.vim/swap//
+" execute 'set directory=' . s:vimdir . '/swap//'
 
-" Verzeichnis für Undo-Dateien
-if !isdirectory(expand('~/.vim/undo'))
-    call mkdir(expand('~/.vim/undo'), 'p')
+" Undo-Verzeichnis
+if !isdirectory(s:vimdir . '/undo')
+  call mkdir(s:vimdir . '/undo', 'p')
 endif
 
 set undofile
-set undodir=~/.vim/undo//
+execute 'set undodir=' . s:vimdir . '/undo//'
 
 " Filetype {{{
 
