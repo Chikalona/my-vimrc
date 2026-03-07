@@ -40,7 +40,7 @@ set backupdir=~/.vim/backup " Doppelslash -> KEINE %home%-Kodierung
 " }}}
 
 set noswapfile
-set directory=~/.vim/swap//
+" set directory=~/.vim/swap//
 
 " Verzeichnis für Undo-Dateien
 if !isdirectory(expand('~/.vim/undo'))
