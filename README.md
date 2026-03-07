@@ -1,6 +1,7 @@
 # my-vimrc
 Vim-Config Gold
 
+
  _   /|
  \'o.O'
  =(___)=
@@ -52,5 +53,9 @@ Vim-Config Gold
 | vimv          | Mass rename files using Vim               |
 | zoxide        | Smarter cd command                        |
 | zxcvbn        | Passwort-Check                            |
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 [![Fish](./img/fish.png)](https://fishshell.com) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Kitty](./img/kitty.png)](https://www.sw.kovidgoyal.net/kitty) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![Zellij](./img/zellij.png)](https://www.zellij.dev)
+
