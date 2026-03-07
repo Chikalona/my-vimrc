@@ -2,7 +2,7 @@
 
 ![vimrc](./img/vimrc.png)
 
-### Favourite Terminal-Tools
+### Favourite Terminal-Tools ![Dog](./img/7_dog.png)
 
 | Name          | Zweck                                     |
 |---------------|-------------------------------------------|
