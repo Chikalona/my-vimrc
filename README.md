@@ -1,6 +1,8 @@
 # my-vimrc
 Vim-Config Gold
 
+![vimrc](./img/vimrc.png)
+
 ### Favourite Terminal-Tools
 
 | Name          | Zweck                                     |
