@@ -1,7 +1,9 @@
 # my-vimrc
 Vim-Config Gold
 
-![Fish](./img/fish.png)[https://fishshell.com] ![Kitty](./img/kitty.png)[https://www.sw.kovidgoyal.net/kitty] ![Zellij](./img/zellij.png)[https://www.zellij.dev]
+![Fish](./img/fish.png)[https://fishshell.com]
+![Kitty](./img/kitty.png)[https://www.sw.kovidgoyal.net/kitty]
+![Zellij](./img/zellij.png)[https://www.zellij.dev]
 
 ### My favourite Terminal-Tools
 
