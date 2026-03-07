@@ -1,5 +1,7 @@
 # my-vimrc
-Vim-Config Goldstandard
+Vim-Config Gold
+
+![Fish](./img/kitty.svg)
 
 ### My favourite Terminal-Tools
 
