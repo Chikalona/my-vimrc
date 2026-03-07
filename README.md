@@ -1,7 +1,7 @@
 # my-vimrc
 Vim-Config Gold
 
-![Fish](./img/kitty.svg)
+![Kitty](./img/kitty.png)
 
 ### My favourite Terminal-Tools
 
