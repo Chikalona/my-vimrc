@@ -1,5 +1,4 @@
 # my-vimrc
-Vim-Config Gold
 
 ![vimrc](./img/vimrc.png)
 
