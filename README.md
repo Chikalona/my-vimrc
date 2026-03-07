@@ -1,6 +1,6 @@
 # my-vimrc
 
-![vimrc](./img/Bildschirmfoto.png)
+![vimrc](./img/vimrc.png)
 
 ### Favourite Terminal-Tools 
 
