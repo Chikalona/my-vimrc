@@ -53,20 +53,4 @@
 
 [![Fish](./img/fish.png)](https://fishshell.com) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Kitty](./img/kitty.png)](https://sw.kovidgoyal.net/kitty/) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![Zellij](./img/zellij.png)](https://www.zellij.dev)
 
-
-
-                     ./o.                  
-                   ./sssso-                
-                 `:osssssss+-              
-               `:+sssssssssso/.            
-             `-/ossssssssssssso/.          
-           `-/+sssssssssssssssso+:`        
-         `-:/+sssssssssssssssssso+/.       
-       `.://osssssssssssssssssssso++-      
-      .://+ssssssssssssssssssssssso++:     
-    .:///ossssssssssssssssssssssssso++:    
-  `:////ssssssssssssssssssssssssssso+++.   
-`-////+ssssssssssssssssssssssssssso++++-   
- `..-+oosssssssssssssssssssssssso+++++/`   
-   ./++++++++++++++++++++++++++++++/:.     
-  `:::::::::::::::::::::::::------``                     ./o.                   lothar@archy
+[![EndeavourOS](./img/EndeavourOS.png)](https://endeavouros.com)
