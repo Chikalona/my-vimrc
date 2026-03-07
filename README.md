@@ -1,13 +1,6 @@
 # my-vimrc
 Vim-Config Gold
 
-
-    _   /|
-    \'o.O'
-    =(___)=
-       U
-
-
 ### Favourite Terminal-Tools
 
 | Name          | Zweck                                     |
