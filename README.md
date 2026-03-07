@@ -1,8 +1,8 @@
 # my-vimrc
 
-![vimrc](./img/vimrc.png)
+![vimrc](./img/Bildschirmfoto.png)
 
-### Favourite Terminal-Tools ![Dog](./img/7_dog.png)
+### Favourite Terminal-Tools 
 
 | Name          | Zweck                                     |
 |---------------|-------------------------------------------|
