@@ -8,7 +8,7 @@ Vim-Config Gold
        U
 
 
-### My favourite Terminal-Tools
+### Favourite Terminal-Tools
 
 | Name          | Zweck                                     |
 |---------------|-------------------------------------------|
