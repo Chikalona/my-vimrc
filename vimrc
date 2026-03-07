@@ -152,7 +152,7 @@ set sessionoptions=blank,buffers,curdir,folds,globals,help,tabpages,winsize,term
 set number
 set norelativenumber
 " Funktioniert nur im Zellij-Lock-Modus (Ctrl+g)
-nnoremap <silent> <C-n> :set relativenumber!<CR>
+" nnoremap <silent> <C-n> :set relativenumber!<CR>
 
 " Steuert die Anzahl von Zeichen, die VIM zum Darstellen der Zeilennummern nutzt
 set numberwidth=2
@@ -508,8 +508,8 @@ autocmd BufRead,BufNewFile *.kdl setlocal shiftwidth=4 softtabstop=4 tabstop=4 e
 " Absolute Zeilennummer im Insert-Modus, relative im Normal-Modus:
 augroup relativenumber_toggle
   autocmd!
-  autocmd InsertEnter * set norelativenumber
-  autocmd InsertLeave * set relativenumber
+  autocmd InsertEnter * setlocal norelativenumber
+  autocmd InsertLeave * setlocal relativenumber
 augroup END
 
 " }}}
