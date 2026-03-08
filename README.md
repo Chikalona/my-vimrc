@@ -17,7 +17,7 @@
 | [git-igitt](https://github.com/mlange-42/git-igitt) | Browse and visualize Git history graphs |
 | [duf](https://github.com/muesli/duf) | Disk Usage/Free Utility |
 | [dust](https://github.com/bootandy/dust) | Disk space monitor |
-| [ekphos](https://github.com/ekphos/ekphos) | Markdown research tool |
+| [ekphos](https://github.com/hanebox/ekphos) | Markdown research tool |
 | [fastfetch](https://github.com/fastfetch-cli/fastfetch) | System information |
 | [feh](https://github.com/derf/feh) | Image viewer |
 | [fdfind (fd)](https://github.com/sharkdp/fd) | Find files |
