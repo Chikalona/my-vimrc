@@ -4,7 +4,7 @@
 
 ### Favourite Terminal-Tools 
 
-| Name          | Zweck                                     |
+| Name          | Description                                     |
 |---------------|-------------------------------------------|
 | age           | Encryption tool                           |
 | bat           | Modern replacement for cat                |
