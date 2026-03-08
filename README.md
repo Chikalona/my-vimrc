@@ -4,50 +4,50 @@
 
 ### Favourite Terminal-Tools 
 
-| Name          | Description                                     |
-|---------------|-------------------------------------------|
-| age           | Encryption tool                           |
-| bat           | Modern replacement for cat                |
-| broot         | Navigate directory trees                  |
-| ble.sh        | Bash Line Editor                          |
-| bottom (btm)  | Process/system monitor                    |
-| btop          | Monitor of resources                      |
-| daylight      | Track sunrise and sunset times            |
-| git-delta     | A viewer for git and diff output          |
-| git-igitt     | Browse and visualize Git history graphs   |
-| duf           | Disk Usage/Free Utility                   |
-| dust          | Disk space monitor                        |
-| ekphos        | Markdown research tool                    |
-| fastfetch     | System information                        |
-| feh           | Image-Viewer                              |
-| fdfind (fd)   | Find files                                |
-| frogmouth     | Markdown browser                          |
-| fzf           | Fuzzy finder                              |
-| git           | Versionskontrollsystem                    |
-| getnf         | Install Nerd Fonts                        |
-| glances       | System monitor                            |
-| gogh          | Color scheme for your terminal            |
-| grc           | Generic Colourizer                        |
-| gtop          | System monitor                            |
-| hstr          | History Suche                             |
-| jrnl          | Note collector                            |
-| lazygit       | UI für Git                                |
-| lsd           | Display directories with colors and icons |
-| lstr          | Tree Viewer                               |
-| mcfly         | History Suche                             |
-| ncdu          | Disc usage analyzer                       |
-| ranger        | Datei manager (Vim-like)                  |
-| ripgrep (rg)  | Directory search tool                     |
-| rovr          | File-Manager                              |
-| speedtest-cli | Speedtest von Ookla                       |
-| taskwarrior   | Todo-Liste                                |
-| trash-cli     | Trashcan                                  |
-| pass          | Passwort-Manager                          |
-| vifm          | Datei-Manager                             |
-| vim-nox       | Schlanker Vim für den Terminal            |
-| vimv          | Mass rename files using Vim               |
-| zoxide        | Smarter cd command                        |
-| zxcvbn        | Passwort-Check                            |
+| Name | Description |
+|-----|-------------|
+| [age](https://github.com/FiloSottile/age) | Encryption tool |
+| [bat](https://github.com/sharkdp/bat) | Modern replacement for cat |
+| [broot](https://github.com/Canop/broot) | Navigate directory trees |
+| [ble.sh](https://github.com/akinomyoga/ble.sh) | Bash Line Editor |
+| [bottom (btm)](https://github.com/ClementTsang/bottom) | Process/system monitor |
+| [btop](https://github.com/aristocratos/btop) | Monitor of resources |
+| [daylight](https://github.com/jhawthorn/daylight) | Track sunrise and sunset times |
+| [git-delta](https://github.com/dandavison/delta) | A viewer for git and diff output |
+| [git-igitt](https://github.com/mlange-42/git-igitt) | Browse and visualize Git history graphs |
+| [duf](https://github.com/muesli/duf) | Disk Usage/Free Utility |
+| [dust](https://github.com/bootandy/dust) | Disk space monitor |
+| [ekphos](https://github.com/ekphos/ekphos) | Markdown research tool |
+| [fastfetch](https://github.com/fastfetch-cli/fastfetch) | System information |
+| [feh](https://github.com/derf/feh) | Image viewer |
+| [fdfind (fd)](https://github.com/sharkdp/fd) | Find files |
+| [frogmouth](https://github.com/Textualize/frogmouth) | Markdown browser |
+| [fzf](https://github.com/junegunn/fzf) | Fuzzy finder |
+| [git](https://git-scm.com/) | Versionskontrollsystem |
+| [getnf](https://github.com/getnf/getnf) | Install Nerd Fonts |
+| [glances](https://github.com/nicolargo/glances) | System monitor |
+| [gogh](https://github.com/Gogh-Co/Gogh) | Color scheme for your terminal |
+| [grc](https://github.com/garabik/grc) | Generic Colourizer |
+| [gtop](https://github.com/aksakalli/gtop) | System monitor |
+| [hstr](https://github.com/dvorka/hstr) | History search |
+| [jrnl](https://github.com/jrnl-org/jrnl) | Note collector |
+| [lazygit](https://github.com/jesseduffield/lazygit) | UI für Git |
+| [lsd](https://github.com/lsd-rs/lsd) | Display directories with colors and icons |
+| [lstr](https://github.com/jarun/lstr) | Tree viewer |
+| [mcfly](https://github.com/cantino/mcfly) | History search |
+| [ncdu](https://dev.yorhel.nl/ncdu) | Disk usage analyzer |
+| [ranger](https://github.com/ranger/ranger) | Datei-Manager (Vim-like) |
+| [ripgrep (rg)](https://github.com/BurntSushi/ripgrep) | Directory search tool |
+| [rovr](https://github.com/rovr/rovr) | File manager |
+| [speedtest-cli](https://github.com/sivel/speedtest-cli) | Speedtest von Ookla |
+| [taskwarrior](https://github.com/GothenburgBitFactory/taskwarrior) | Todo-Liste |
+| [trash-cli](https://github.com/andreafrancia/trash-cli) | Trashcan |
+| [pass](https://www.passwordstore.org/) | Passwort-Manager |
+| [vifm](https://github.com/vifm/vifm) | Datei-Manager |
+| [vim-nox](https://www.vim.org/) | Schlanker Vim für den Terminal |
+| [vimv](https://github.com/thameera/vimv) | Mass rename files using Vim |
+| [zoxide](https://github.com/ajeetdsouza/zoxide) | Smarter cd command |
+| [zxcvbn](https://github.com/dropbox/zxcvbn) | Passwort-Check |
 
 
 
