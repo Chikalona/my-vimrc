@@ -54,5 +54,3 @@
 [![Fish](./img/fish.png)](https://fishshell.com) &nbsp;&nbsp;&nbsp;[![Kitty](./img/kitty.png)](https://sw.kovidgoyal.net/kitty/) &nbsp;&nbsp;&nbsp; [![Zellij](./img/zellij.png)](https://www.zellij.dev)
 
 [![EndeavourOS](./img/EndeavourOS.png)](https://endeavouros.com)
-
-![Terminal](./img/demo.gif)
