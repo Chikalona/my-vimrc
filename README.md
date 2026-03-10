@@ -42,6 +42,7 @@
 | [rnr ](https://github.com/ismaelgv/rnr) | Batch rename files and directories |
 | [rovr](https://github.com/rovr/rovr) | File manager |
 | [speedtest-cli](https://github.com/sivel/speedtest-cli) | Speedtest von Ookla |
+| [systemd-manager-tui](https://github.com/matheus-git/systemd-manager-tui) | Managing systemd services|
 | [taskwarrior](https://github.com/GothenburgBitFactory/taskwarrior) | Todo-Liste |
 | [trash-cli](https://github.com/andreafrancia/trash-cli) | Trashcan |
 | [vifm](https://github.com/vifm/vifm) | Datei-Manager |
