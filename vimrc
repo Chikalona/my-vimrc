@@ -91,7 +91,7 @@ autocmd FileType netrw nmap <buffer> gh :let g:netrw_hide=(g:netrw_hide==1?0:1) 
 
 " webdevicons {{{
 
-let g:webdevicons_enable = 1                     " loading the plugin
+let g:webdevicons_enable = 1                    " loading the plugin
 let g:devicons_enable = 1                        " loading the plugin
 let g:webdevicons_enable_ctrlp = 0               " ctrlp glyphs
 " let g:webdevicons_enable_startify = 1          " adding to vim-startify screen
@@ -106,6 +106,26 @@ let g:webdevicons_enable_flagship_statusline = 1 " adding to flagship's statusli
 set noerrorbells
 set visualbell
 let &t_vb = ""
+
+" }}}
+
+" Plugin 'Startify' {{{
+
+" let g:startify_lists = [
+" \ { 'type': 'files',	'header': ['    last modified:'] },
+" \ { 'type': 'bookmarks', 'header': ['    bookmarks:'] },
+" \ ]
+
+" let g:startify_bookmarks = [
+"    \ {'v': '~/my_conf_darkstar/vimrc'},
+"    \ {'f': '~/my_conf_darkstar/vifmrc'},
+"    \ {'g': '~/my_conf_darkstar/gitconfig'},
+"    \ {'t': '~/my_conf_darkstar/taskrc'},
+"    \ {'b': '~/my_conf_darkstar/bashrc'},
+"    \ {'ba':'~/my_conf_darkstar/bash_aliases'},
+"    \ {'bf':'~/my_conf_darkstar/bash_functions'},
+"    \ {'tm':'~/my_conf_all/tmux.conf'},
+"    \]
 
 " }}}
 
@@ -156,6 +176,7 @@ set sessionoptions=blank,buffers,curdir,folds,globals,help,tabpages,winsize,term
 
 set number
 set norelativenumber
+
 " Funktioniert nur im Zellij-Lock-Modus (Ctrl+g)
 " nnoremap <silent> <C-n> :set relativenumber!<CR>
 
@@ -169,31 +190,31 @@ set spellsuggest=best,9
 " autocmd FileType markdown,text,gitcommit setlocal spell spelllang=de
 " Spell-Check togglen → <leader> sp 
 " Spell Kommandos
-"   |-----+-------------------------|
-"   | z=  | Wort korrigieren        |
-"   |-----+-------------------------|
-"   | zg  | Wort hinzufügen         |
-"   |-----+-------------------------|
-"   | zw  | Wort verbieten          |
-"   |-----+-------------------------|
-"   | ]s  | nächster Fehler         |
-"   |-----+-------------------------|
-"   | [s  | vorheriger Fehler       |
-"   |-----+-------------------------|
-"   | zug | rückgängig (letztes zg) |
-"   |-----+-------------------------|
-"   | zuw | rückgängig (letztes zw) |
-"   |-----+-------------------------|
+"    |-----+-------------------------|
+"    | z=  | Wort korrigieren        |
+"    |-----+-------------------------|
+"    | zg  | Wort hinzufügen         |
+"    |-----+-------------------------|
+"    | zw  | Wort verbieten          |
+"    |-----+-------------------------|
+"    | ]s  | nächster Fehler         |
+"    |-----+-------------------------|
+"    | [s  | vorheriger Fehler       |
+"    |-----+-------------------------|
+"    | zug | rückgängig (letztes zg) |
+"    |-----+-------------------------|
+"    | zuw | rückgängig (letztes zw) |
+"    |-----+-------------------------|
 
 " }}}
 
 " Disable Copilot for all filetypes except ... {{{
 " let g:copilot_filetypes = {
-"     \'*': v:false,
-"     \'php': v:true,
-"     \'javascript': v:true,
-"     \'html': v:true,
-"     \'css': v:true,
+"      \'*': v:false,
+"      \'php': v:true,
+"      \'javascript': v:true,
+"      \'html': v:true,
+"      \'css': v:true,
 " \}
 
 " }}}
@@ -233,7 +254,7 @@ set laststatus=2
 " |--------------+-----------------------------------------|
 " | PlugUpgrade  | Update vim-plug                         |
 " |--------------+-----------------------------------------|
-" | , {'on':[]}  | Disable Plugin without uninstall        |
+" | , {'on':[]}  | Disable Plugin without uninstall         |
 " |--------------+-----------------------------------------|
 
 call plug#begin()
@@ -249,22 +270,22 @@ call plug#begin()
     Plug 'tpope/vim-commentary'     " Standard für Kommentare (gcc | gc + Bewegung)
     Plug 'kshenoy/vim-signature'    " Markierungen anzeigen
     Plug 'yggdroot/indentline'      " Einrückungslinien
-    " Plug 'github/copilot.vim'       " Copilot – macht eh viel über Autocmds
+    " Plug 'github/copilot.vim'        " Copilot – macht eh viel über Autocmds
     Plug 'junegunn/vim-plug'        " Doku/Komfort für vim-plug selbst
     Plug 'jdhao/better-escape.vim'  " Escape without getting delay when typing in insert mode
-    Plug 'sheerun/vim-polyglot'     " Solid language pack
-    Plug 'tpope/vim-surround'       " Easily delete, change and add such surroundings in pairs
+    Plug 'sheerun/vim-polyglot'      " Solid language pack
+    Plug 'tpope/vim-surround'        " Easily delete, change and add such surroundings in pairs
     Plug 'airblade/vim-gitgutter'   " Shows a git diff in the sign column.
     " Plug 'blindFS/vim-taskwarrior'  " Todo-List-Manager
     Plug 'junegunn/vim-easy-align'  " A VIM Alignment-Plugin
 
     " --- Lazy: nach Filetype geladen ---
-    Plug 'imsnif/kdl.vim',           { 'for': 'kdl' }                " Nur bei KDL-Dateien
-    Plug 'khaveesh/vim-fish-syntax', { 'for': 'fish' }               " Nur bei fish-Skripten
+    Plug 'imsnif/kdl.vim',           { 'for': 'kdl' }                 " Nur bei KDL-Dateien
+    Plug 'khaveesh/vim-fish-syntax', { 'for': 'fish' }                " Nur bei fish-Skripten
     Plug 'itspriddle/vim-shellcheck', { 'for': ['sh', 'bash', 'zsh'] } " Shell-Skripte
     " Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries', 'for': 'go' }  " Nur für Go-Dateien
     Plug 'pangloss/vim-javascript',  { 'for': ['javascript', 'javascriptreact'] }
-    " Plug 'SirVer/ultisnips',         { 'for': ['python', 'javascript', 'sh', 'go', 'vim'] }
+    " Plug 'SirVer/ultisnips',          { 'for': ['python', 'javascript', 'sh', 'go', 'vim'] }
 
     " --- Lazy: nach Kommando geladen ---
     Plug 'liuchengxu/vim-which-key', { 'on': ['WhichKey', 'WhichKey!'] } " Shows keybindings in popup
@@ -280,8 +301,8 @@ call plug#begin()
     Plug 'mbbill/undotree',     { 'on': 'UndotreeToggle' } " Nur bei :UndotreeToggle
     " Plug 'mhinz/vim-startify'   " Startbildschirm – lädt beim Start über Autocmd
 
-    Plug 'tpope/vim-fugitive',  { 'on': 'Git' }           " Hast du schon Lazy konfiguriert
-    Plug 'vifm/vifm.vim',       { 'on': 'Vifm' }          " Nur bei :Vifm
+    Plug 'tpope/vim-fugitive',  { 'on': 'Git' }            " Hast du schon Lazy konfiguriert
+    Plug 'vifm/vifm.vim',       { 'on': 'Vifm' }           " Nur bei :Vifm
     Plug 'dhruvasagar/vim-table-mode', {'on': 'TableModeToggle'}
 
 call plug#end()
@@ -363,21 +384,13 @@ let g:lightline = {
 
 " }}}
 
-" VIM Split navigations {{{
-
-nnoremap <C-J> <C-W><C-J>
-nnoremap <C-K> <C-W><C-K>
-nnoremap <C-L> <C-W><C-L>
-nnoremap <C-H> <C-W><C-H>
-
-" }}}
-
 " Siehe Funktion »UpdateTabline«
 " set showtabline=2
 
 " Kein blinkender Cursor
 set gcr=a:blinkon0 
-set shellslash
+
+" set shellslash " Windows
 
 " Colorschemes
 silent! colorscheme gruvbox 
@@ -425,9 +438,6 @@ set pastetoggle=<F8> " Treppeneffekt beim Copy & Paste verhindern
 
 set hlsearch         " Suchtreffer farblich hervorheben
 
-" Suche-Hervorhebung mit Ctrl+L ausschalten
-nnoremap <C-l> :nohlsearch<CR><C-l>
-
 set incsearch  " Während der Eingabe zum entsprechenden Text springen
 
 set ignorecase " Größe und Kleinschreibung bei der Suche ignorieren
@@ -445,8 +455,8 @@ set signcolumn=auto
 set scrolloff=5
 set sidescrolloff=0
 set splitright | set splitbelow
-set updatetime=300           " Schnellere CursorHold-Events (z.B. LSP/Lightline)
-set confirm                  " :q bei unsaved → Confirm statt Fehlermeldung
+set updatetime=300            " Schnellere CursorHold-Events (z.B. LSP/Lightline)
+set confirm                   " :q bei unsaved → Confirm statt Fehlermeldung
 
 set equalalways
 
@@ -455,7 +465,7 @@ set autoread
 au FocusGained,BufEnter * silent! checktime
 
 " Filetype und Indent
-autocmd FileType markdown setlocal spell
+" autocmd FileType markdown setlocal spell
 autocmd FileType markdown setlocal foldmethod=expr foldexpr=MarkdownFold()
 
 " Optional: listchars für Markdown (Tabs, trailing spaces)
@@ -467,15 +477,22 @@ let g:vim_markdown_conceal_code_blocks = 0
 
 " Autocmd {{{
 
+" Absolute Zeilennummer im Insert-Modus, relative im Normal-Modus:
+augroup relativenumber_toggle
+  autocmd!
+  autocmd InsertEnter * setlocal norelativenumber
+  autocmd InsertLeave * setlocal relativenumber
+augroup END
+
 " Fish-Konfigurationen beim Speichern automatisch neu laden
 augroup fish_reload
     autocmd!
     " Erfasst alle .fish Dateien in ~/.config/fish und Unterordnern
-    autocmd BufWritePost /home/lothar/.config/fish/**/*.fish silent !fish -c "source %"
+    autocmd BufWritePost $HOME/.config/fish/**/*.fish silent !fish -c "source %"
 augroup END
 
 " Startet Conky nur neu, wenn die Datei im conky-Pfad liegt
-autocmd BufWritePost /home/lothar/.config/conky/*.sh,*.conkyrc silent !systemctl --user restart conky.service
+autocmd BufWritePost $HOME/.config/conky/*.sh,$HOME/.config/conky/*.conkyrc silent !systemctl --user restart conky.service
 
 " autocmd FileType * setlocal formatoptions-=ro
 
@@ -492,7 +509,7 @@ let g:netrw_fastbrowse = 2
 augroup filetypes_misc
   autocmd!
   autocmd FileType jsonc  setlocal syntax=json
-  autocmd FileType *      setlocal formatoptions-=ro
+  autocmd FileType * setlocal formatoptions-=ro
   autocmd BufNewFile,BufRead *.conkyrc,conky.conf setfiletype lua
   autocmd BufRead,BufNewFile *.kdl setlocal shiftwidth=4 softtabstop=4 tabstop=4 expandtab
 augroup END
@@ -509,13 +526,6 @@ autocmd VimResized * wincmd =
 " Für KDL-Dateien: 4 Leerzeichen Einrückung
 autocmd BufRead,BufNewFile *.kdl setlocal shiftwidth=4 softtabstop=4 tabstop=4 expandtab
 
-
-" Absolute Zeilennummer im Insert-Modus, relative im Normal-Modus:
-augroup relativenumber_toggle
-  autocmd!
-  autocmd InsertEnter * setlocal norelativenumber
-  autocmd InsertLeave * setlocal relativenumber
-augroup END
 
 " }}}
 
@@ -604,7 +614,7 @@ if &term =~ "kitty"
 endif
 
 highlight Comment        cterm=italic gui=italic
-highlight Todo           cterm=italic gui=italic
+highlight Todo            cterm=italic gui=italic
 highlight SpecialComment cterm=italic gui=italic
 
 augroup ItalicConfComments
@@ -661,7 +671,7 @@ inoremap <S-CR> <C-o>:set formatoptions-=r<CR><CR><C-o>:set formatoptions+=r<CR>
 " Undotree
 nnoremap <F5> :UndotreeToggle<CR>
 
-noremap <F4> <Esc>:w<CR>:!clear;python3 %<CR>
+" noremap <F4> <Esc>:w<CR>:!clear;python3 %<CR>
 
 " Table-Mode Toggle auf \tm
 nnoremap <leader>tm :TableModeToggle<CR>
@@ -701,10 +711,19 @@ cmap PUg <bar>PlugUpgrade<CR>
 
 " }}}
 
+" Suche-Hervorhebung mit Ctrl+L ausschalten
+nnoremap <C-l> :nohlsearch<CR><C-l>
+
 " Shift+Enter (Leerzeile überm Cursor)
 nnoremap <S-CR> O<Esc>S<Esc>j
 " Strg+Enter (Leerzeile unterm Cursor)
 nnoremap <C-CR> o<Esc>S<Esc>k
+
+" VIM Split navigations
+nnoremap <leader>vu <C-W><C-J>
+nnoremap <leader>vo <C-W><C-K>
+nnoremap <leader>vr <C-W><C-L>
+nnoremap <leader>vl <C-W><C-H>
 
 " VIM-Fenstergrößen anpassen
 nnoremap <C-Up>    :resize +2<CR>
@@ -794,13 +813,6 @@ set foldmethod=marker
 set foldtext=MyFoldText()
 set fillchars=fold:\ 
 
-  " return '⮀ ' . l:text
-  " return '⮁ ' . l:text
-  " return '⮕ ' . l:text
-  " return '⮞ ' . l:text
-  " return '🠊 ' . l:text
-  " return '🡲  ' . l:text
-
 function! MyFoldText()
   let l:text = getline(v:foldstart)
 
@@ -812,8 +824,6 @@ function! MyFoldText()
   let l:text = substitute(l:text, '\v\s*(["#;/]{1,2}|//|--)\s*$', '', '')
 
   return 'ᐅ ' . l:text
-  " return '⮀ ' . l:text
 endfunction
 
 " }}}
-
