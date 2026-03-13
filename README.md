@@ -41,7 +41,7 @@
 | [ripgrep (rg)](https://github.com/BurntSushi/ripgrep)                     | Directory search tool                     |
 | [rnr ](https://github.com/ismaelgv/rnr)                                   | Batch rename files and directories        |
 | [rovr](https://github.com/rovr/rovr)                                      | File manager                              |
-| [speedtest-cli](https://github.com/sivel/speedtest-cli)                   | Speedtest von Ookla                       |
+| [speedtest-go](https://github.com/showwin/speedtest-go)                   | Test internet speed                       |
 | [systemd-manager-tui](https://github.com/matheus-git/systemd-manager-tui) | Managing systemd services                 |
 | [taskdog](https://github.com/Kohei-Wada/taskdog)                          | Task manager                              |
 | [taskwarrior](https://github.com/GothenburgBitFactory/taskwarrior)        | Todo-Liste                                |
