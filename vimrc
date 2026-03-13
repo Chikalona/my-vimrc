@@ -660,10 +660,10 @@ noremap <leader>sp :setlocal spell!<CR>
 nnoremap <leader>F :Files ~/<CR>
 nnoremap <leader>T :tabnew \| Files ~/<CR>
 " Vertikaler Split + Files
-nnoremap <leader>v :vsplit \| Files<CR>
+nnoremap <leader>V :vsplit \| Files<CR>
 " Horizontaler Split + Files
-nnoremap <leader>s :split \| Files<CR>
-nnoremap <leader>e :Lexplore ~/<CR>
+nnoremap <leader>S :split \| Files<CR>
+nnoremap <leader>L :Lexplore ~/<CR>
 
 " Shift+Enter entfernt Kommentarzeichen am Zeilenanfang
 inoremap <S-CR> <C-o>:set formatoptions-=r<CR><CR><C-o>:set formatoptions+=r<CR>
