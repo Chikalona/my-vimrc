@@ -49,6 +49,7 @@
 | [vifm](https://github.com/vifm/vifm)                                      | Datei-Manager                             |
 | [vim-nox](https://www.vim.org/)                                           | Schlanker Vim für den Terminal            |
 | [vimv](https://github.com/thameera/vimv)                                  | Mass rename files using Vim               |
+| [yazi](https://github.com/sxyazi/yazi)                                    | File manager                              |
 | [zoxide](https://github.com/ajeetdsouza/zoxide)                           | Smarter cd command                        |
 | [zxcvbn](https://github.com/dropbox/zxcvbn)                               | Passwort-Check                            |
 
