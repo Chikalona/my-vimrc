@@ -807,23 +807,18 @@ iab tsu <C-v>u30c4
 
 " Folding {{{
 
-hi Folded guifg=#F4A460 guibg=NONE " Sandbraun
-
+" hi Folded guifg=#F4A460 guibg=NONE
+hi Folded term=NONE cterm=NONE ctermfg=215 ctermbg=0 guifg=#F4A460 guibg=NONE gui=NONE
 set foldmethod=marker
 set foldtext=MyFoldText()
 set fillchars=fold:\ 
 
 function! MyFoldText()
-  let l:text = getline(v:foldstart)
-
-  " explizit nur den Marker '{{' und alles danach entfernen
-  let l:text = substitute(l:text, ' {{{.*$', '', '')
-
-  " Kommentarzeichen entfernen, egal ob am Anfang oder nach Code
-  let l:text = substitute(l:text, '\v^\s*(["#;/]{1,2}|//|--)\s*', '', '')
-  let l:text = substitute(l:text, '\v\s*(["#;/]{1,2}|//|--)\s*$', '', '')
-
-  return 'ᐅ ' . l:text
+    let l:text = getline(v:foldstart)
+    let l:text = substitute(l:text, ' {{{.*$', '', '')
+    let l:text = substitute(l:text, '\v^\s*(["#;/]{1,2}|//|--)\s*', '', '')
+    let l:text = substitute(l:text, '\v\s*(["#;/]{1,2}|//|--)\s*$', '', '')
+    return 'ᐅ ' . l:text
 endfunction
 
 " }}}
